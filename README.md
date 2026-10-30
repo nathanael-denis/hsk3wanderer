@@ -3,7 +3,7 @@
 <p align="center"><b>A runner game where every fight is a Chinese word.</b><br>
 All 300 words of HSK 3, six regions of China, twenty-one creatures from Chinese folklore, and one very rude demon king.</p>
 
-<p align="center"><img src="docs/regions.png" alt="The six regions of the campaign: Great Wall in autumn, Xi'an city wall at dusk, Dunhuang dunes, Chengdu bamboo forest, Guilin karst peaks, Shanghai Bund at night" width="860"></p>
+<p align="center"><img src="regions.png" alt="The six regions of the campaign: Great Wall in autumn, Xi'an city wall at dusk, Dunhuang dunes, Chengdu bamboo forest, Guilin karst peaks, Shanghai Bund at night" width="860"></p>
 
 ---
 
@@ -27,7 +27,7 @@ Three hundred words are missing. Each region hides fifty of them, guarded by the
 
 Win the words back, region by region, and the map heals. Lose, and you can always try again. The Demon King isn't going anywhere. (Well. He will. But he says he'll be back, and he mentions HSK 4.)
 
-<p align="center"><img src="docs/story.png" alt="The six scenes of the opening story" width="760"></p>
+<p align="center"><img src="story.png" alt="The six scenes of the opening story" width="760"></p>
 
 ---
 
@@ -49,7 +49,7 @@ Your character runs on their own. When something blocks the road, a word appears
 
 **It remembers what you get wrong.** Missed words come back more often. The **错题本 Book of Shame** keeps a permanent record of every mistake: how often you missed a word, what you thought it meant ("You said *to be afraid* ×3"), and whether you've redeemed yourself since. A **雪耻 Redemption run** drills only those words until each one earns its 洗白 *Redeemed* stamp (three right in a row).
 
-<p align="center"><img src="docs/book-of-shame.png" alt="The Book of Shame listing missed words with miss counts and stamps" width="640"></p>
+<p align="center"><img src="book-of-shame.png" alt="The Book of Shame listing missed words with miss counts and stamps" width="640"></p>
 
 **Bosses test different skills.** Each region's boss bends the rules, and the rules stack as you go:
 
@@ -62,15 +62,15 @@ Your character runs on their own. When something blocks the road, a word appears
 | 镜 Mirror | English prompt, hanzi answers | Telling similar characters apart |
 | 潮 Tide | A new combination every question | Everything at once |
 
-<p align="center"><img src="docs/bosses.png" alt="Boss fights against the Taotie, the Ba serpent, the flood dragon and the Dragon King of the East Sea" width="760"></p>
+<p align="center"><img src="bosses.png" alt="Boss fights against the Taotie, the Ba serpent, the flood dragon and the Dragon King of the East Sea" width="760"></p>
 
 **It sneaks in culture.** The 21 creatures in the **图鉴 bestiary** come from Chinese folklore and *Journey to the West*. Each one has its name broken down character by character (白骨精 = 白 white + 骨 bone + 精 spirit), a short story, and a "Hear it" button. You pick up words like 鬼, 龙 and 王 without trying.
 
-<p align="center"><img src="docs/bestiary.png" alt="The bestiary with creatures grouped by region" width="680"></p>
+<p align="center"><img src="bestiary.png" alt="The bestiary with creatures grouped by region" width="680"></p>
 
 **There's a reason to come back.** Coins (铜钱) from fights buy new characters: a panda, Zhu Bajie, Sun Wukong (whose staff grows all the way to the enemy) and the Laughing Buddha.
 
-<p align="center"><img src="docs/shop.png" alt="The shop with five playable characters" width="680"></p>
+<p align="center"><img src="shop.png" alt="The shop with five playable characters" width="680"></p>
 
 ### What it doesn't do (yet)
 
@@ -139,8 +139,6 @@ During development, the game was checked with Playwright in headless Chromium. S
 - **Fonts:** Ma Shan Zheng, Noto Serif SC and Barlow Semi Condensed, all under the SIL Open Font License, served by Google Fonts.
 
 ## License
-
-*To be decided.* The current proposal is:
 
 - **Code:** MIT License
 - **Story, lore texts and artwork:** [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
